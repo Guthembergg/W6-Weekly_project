@@ -17,4 +17,68 @@ nav {
 .navbar-nav .nav-link.active,
 .navbar-nav .show > .nav-link {
   color: white;
+}
+
+.color-0 {
+  background-color: #f41616;
+  color: #0be9e9;
+}
+
+.color-1 {
+  background-color: #f00b0b;
+  color: #0ff4f4;
+}
+
+.color-2 {
+  background-color: #e20a0a;
+  color: #1df5f5;
+}
+
+.color-3 {
+  background-color: #d30a0a;
+  color: #2cf5f5;
+}
+
+.color-4 {
+  background-color: #c40909;
+  color: #3bf6f6;
+}
+
+.color-5 {
+  background-color: #b60808;
+  color: #49f7f7;
+}
+
+.color-6 {
+  background-color: #a70808;
+  color: #58f7f7;
+}
+
+.color-7 {
+  background-color: #990707;
+  color: #66f8f8;
+}
+
+.color-8 {
+  background-color: #8a0606;
+  color: #75f9f9;
+}
+
+body {
+  background-color: #f75656;
+}
+
+#submitButton {
+  font-weight: 700;
+}
+
+#contact h2 {
+  font-weight: 900;
+}
+
+footer {
+  font-weight: 700;
+}
+footer h4 {
+  font-weight: 700;
 }/*# sourceMappingURL=app.css.map */
