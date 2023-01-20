@@ -20,61 +20,61 @@ nav {
 }
 
 :export {
-  colorStart: rgb(245, 37, 37);
+  colorStart: rgb(0, 245, 33);
 }
 
 .color-0 {
-  background-color: #f41616;
-  color: #0be9e9;
+  background-color: #00e61f;
+  color: #ff19e0;
 }
 
 .color-1 {
-  background-color: #f00b0b;
-  color: #0ff4f4;
+  background-color: #00d61d;
+  color: #ff29e2;
 }
 
 .color-2 {
-  background-color: #e20a0a;
-  color: #1df5f5;
+  background-color: #00c71b;
+  color: #ff38e4;
 }
 
 .color-3 {
-  background-color: #d30a0a;
-  color: #2cf5f5;
+  background-color: #00b819;
+  color: #ff47e6;
 }
 
 .color-4 {
-  background-color: #c40909;
-  color: #3bf6f6;
+  background-color: #00a917;
+  color: #ff56e8;
 }
 
 .color-5 {
-  background-color: #b60808;
-  color: #49f7f7;
+  background-color: #009915;
+  color: #ff66ea;
 }
 
 .color-6 {
-  background-color: #a70808;
-  color: #58f7f7;
+  background-color: #008a13;
+  color: #ff75ec;
 }
 
 .color-7 {
-  background-color: #990707;
-  color: #66f8f8;
+  background-color: #007b11;
+  color: #ff84ee;
 }
 
 .color-8 {
-  background-color: #8a0606;
-  color: #75f9f9;
+  background-color: #006b0e;
+  color: #ff94f1;
 }
 
 body {
-  background-color: #f75656;
+  background-color: #29ff46;
 }
 
 #portfolio {
-  background-color: #f98787;
-  color: #067878;
+  background-color: #5cff72;
+  color: #a3008d;
 }
 #portfolio h1 {
   font-size: 6em;
@@ -104,60 +104,60 @@ body {
 }
 
 :export {
-  colorStart: rgb(245, 37, 37);
+  colorStart: rgb(0, 245, 33);
 }
 
 :export {
-  colorStart: rgb(245, 37, 37);
+  colorStart: rgb(0, 245, 33);
 }
 
 .color-0 {
-  background-color: #f41616;
-  color: #0be9e9;
+  background-color: #00e61f;
+  color: #ff19e0;
 }
 
 .color-1 {
-  background-color: #f00b0b;
-  color: #0ff4f4;
+  background-color: #00d61d;
+  color: #ff29e2;
 }
 
 .color-2 {
-  background-color: #e20a0a;
-  color: #1df5f5;
+  background-color: #00c71b;
+  color: #ff38e4;
 }
 
 .color-3 {
-  background-color: #d30a0a;
-  color: #2cf5f5;
+  background-color: #00b819;
+  color: #ff47e6;
 }
 
 .color-4 {
-  background-color: #c40909;
-  color: #3bf6f6;
+  background-color: #00a917;
+  color: #ff56e8;
 }
 
 .color-5 {
-  background-color: #b60808;
-  color: #49f7f7;
+  background-color: #009915;
+  color: #ff66ea;
 }
 
 .color-6 {
-  background-color: #a70808;
-  color: #58f7f7;
+  background-color: #008a13;
+  color: #ff75ec;
 }
 
 .color-7 {
-  background-color: #990707;
-  color: #66f8f8;
+  background-color: #007b11;
+  color: #ff84ee;
 }
 
 .color-8 {
-  background-color: #8a0606;
-  color: #75f9f9;
+  background-color: #006b0e;
+  color: #ff94f1;
 }
 
 body {
-  background-color: #f75656;
+  background-color: #29ff46;
 }
 
 #submitButton {
