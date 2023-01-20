@@ -6,3 +6,7 @@ $colorStart: rgb(
 $bodyColor: lighten($colorStart, 10%);
 $carouselColor: lighten($bodyColor, 10%);
 $carouselText: invert($carouselColor);
+
+:export {
+  colorStart: $colorStart;
+}
