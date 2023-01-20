@@ -1,3 +1,5 @@
+@import "variables";
+
 @mixin color-divs($count, $baseName, $startcolor) {
   $loop_color: $startcolor;
   @for $i from 0 through $count {
@@ -9,14 +11,8 @@
   }
 } //crea classi con il nome che vuoi con sfumature del colore iniziale e colore del testo invertito per risultare leggibile
 
-$colorStart: rgb(
-  245,
-  37,
-  37
-); // cambiando questo colore cambiano in automatico tutti i colori del sito
-
 @include color-divs(8, "color", $colorStart);
 
 body {
-  background-color: lighten($colorStart, 10%);
+  background-color: $bodyColor;
 }

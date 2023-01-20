@@ -1,0 +1,8 @@
+$colorStart: rgb(
+  245,
+  37,
+  37
+); // cambiando questo colore cambiano in automatico tutti i colori del sito
+$bodyColor: lighten($colorStart, 10%);
+$carouselColor: lighten($bodyColor, 10%);
+$carouselText: invert($carouselColor);
