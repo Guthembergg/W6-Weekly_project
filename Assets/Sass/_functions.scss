@@ -14,7 +14,7 @@
   @for $i from 0 through $count {
     .#{$baseName}-#{$i} {
       background-color: $loop_color;
-      background-image: linear-gradient(rgba(0, 0, 0, $i/22) 0 0);
+      background-image: linear-gradient(rgba(0, 0, 0, calc($i / 22)) 0 0);
 
       h3,
       h4,

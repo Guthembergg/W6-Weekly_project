@@ -20,7 +20,7 @@ nav {
 }
 
 :root {
-  --Mycolor: #4c4243;
+  --Mycolor: #464d72;
 }
 
 .color-0 {
@@ -241,11 +241,11 @@ footer h4 {
 }
 
 :root {
-  --Mycolor: #4c4243;
+  --Mycolor: #464d72;
 }
 
 :root {
-  --Mycolor: #4c4243;
+  --Mycolor: #464d72;
 }
 
 .color-0 {
@@ -417,4 +417,26 @@ body {
 body h2 {
   filter: invert(100%);
   mix-blend-mode: difference;
+}
+
+#portfolio h2,
+h1 {
+  -webkit-animation: myAnimation 2s;
+          animation: myAnimation 2s;
+}
+@-webkit-keyframes myAnimation {
+  0% {
+    transform: translatey(-620px);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}
+@keyframes myAnimation {
+  0% {
+    transform: translatey(-620px);
+  }
+  100% {
+    transform: translatey(0);
+  }
 }/*# sourceMappingURL=app.css.map */
