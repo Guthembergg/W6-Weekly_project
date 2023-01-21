@@ -1,12 +1,12 @@
 #portfolio h2,
 h1 {
-  animation: myAnimation 2s;
+  animation: myAnimation 2s ease-out;
   @keyframes myAnimation {
     0% {
-      transform: translatey(-620px);
+      transform: translatey(-620px) scale(0.3);
     }
     100% {
-      transform: translatey(0);
+      transform: translatey(0) scale(1);
     }
   }
 }

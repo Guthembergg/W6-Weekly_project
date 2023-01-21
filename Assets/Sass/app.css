@@ -421,22 +421,22 @@ body h2 {
 
 #portfolio h2,
 h1 {
-  -webkit-animation: myAnimation 2s;
-          animation: myAnimation 2s;
+  -webkit-animation: myAnimation 2s ease-out;
+          animation: myAnimation 2s ease-out;
 }
 @-webkit-keyframes myAnimation {
   0% {
-    transform: translatey(-620px);
+    transform: translatey(-620px) scale(0.3);
   }
   100% {
-    transform: translatey(0);
+    transform: translatey(0) scale(1);
   }
 }
 @keyframes myAnimation {
   0% {
-    transform: translatey(-620px);
+    transform: translatey(-620px) scale(0.3);
   }
   100% {
-    transform: translatey(0);
+    transform: translatey(0) scale(1);
   }
 }/*# sourceMappingURL=app.css.map */
