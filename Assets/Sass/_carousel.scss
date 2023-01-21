@@ -1,5 +1,8 @@
 @import "functions";
 
+$carouselColor: $bodyColor;
+$carouselText: $carouselColor;
+
 #portfolio {
   h1 {
     font-size: 6em;
