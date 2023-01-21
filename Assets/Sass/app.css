@@ -19,62 +19,165 @@ nav {
   color: white;
 }
 
-:export {
-  colorStart: rgb(0, 245, 33);
+:root {
+  --Mycolor: rgb(0, 8, 255);
 }
 
 .color-0 {
-  background-color: #00e61f;
-  color: #ff19e0;
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 0 0);
+}
+.color-0 h1,
+.color-0 h2,
+.color-0 h3,
+.color-0 h4,
+.color-0 h5,
+.color-0 h6,
+.color-0 small,
+.color-0 button {
+  color: invert(100%);
+  filter: invert(100%);
 }
 
 .color-1 {
-  background-color: #00d61d;
-  color: #ff29e2;
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0666666667) 0 0);
+}
+.color-1 h1,
+.color-1 h2,
+.color-1 h3,
+.color-1 h4,
+.color-1 h5,
+.color-1 h6,
+.color-1 small,
+.color-1 button {
+  color: invert(100%);
+  filter: invert(100%);
 }
 
 .color-2 {
-  background-color: #00c71b;
-  color: #ff38e4;
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1333333333) 0 0);
+}
+.color-2 h1,
+.color-2 h2,
+.color-2 h3,
+.color-2 h4,
+.color-2 h5,
+.color-2 h6,
+.color-2 small,
+.color-2 button {
+  color: invert(100%);
+  filter: invert(100%);
 }
 
 .color-3 {
-  background-color: #00b819;
-  color: #ff47e6;
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+}
+.color-3 h1,
+.color-3 h2,
+.color-3 h3,
+.color-3 h4,
+.color-3 h5,
+.color-3 h6,
+.color-3 small,
+.color-3 button {
+  color: invert(100%);
+  filter: invert(100%);
 }
 
 .color-4 {
-  background-color: #00a917;
-  color: #ff56e8;
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2666666667) 0 0);
+}
+.color-4 h1,
+.color-4 h2,
+.color-4 h3,
+.color-4 h4,
+.color-4 h5,
+.color-4 h6,
+.color-4 small,
+.color-4 button {
+  color: invert(100%);
+  filter: invert(100%);
 }
 
 .color-5 {
-  background-color: #009915;
-  color: #ff66ea;
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3333333333) 0 0);
+}
+.color-5 h1,
+.color-5 h2,
+.color-5 h3,
+.color-5 h4,
+.color-5 h5,
+.color-5 h6,
+.color-5 small,
+.color-5 button {
+  color: invert(100%);
+  filter: invert(100%);
 }
 
 .color-6 {
-  background-color: #008a13;
-  color: #ff75ec;
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
+}
+.color-6 h1,
+.color-6 h2,
+.color-6 h3,
+.color-6 h4,
+.color-6 h5,
+.color-6 h6,
+.color-6 small,
+.color-6 button {
+  color: invert(100%);
+  filter: invert(100%);
 }
 
 .color-7 {
-  background-color: #007b11;
-  color: #ff84ee;
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4666666667) 0 0);
+}
+.color-7 h1,
+.color-7 h2,
+.color-7 h3,
+.color-7 h4,
+.color-7 h5,
+.color-7 h6,
+.color-7 small,
+.color-7 button {
+  color: invert(100%);
+  filter: invert(100%);
 }
 
 .color-8 {
-  background-color: #006b0e;
-  color: #ff94f1;
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5333333333) 0 0);
+}
+.color-8 h1,
+.color-8 h2,
+.color-8 h3,
+.color-8 h4,
+.color-8 h5,
+.color-8 h6,
+.color-8 small,
+.color-8 button {
+  color: invert(100%);
+  filter: invert(100%);
 }
 
 body {
-  background-color: #29ff46;
+  background-color: var(--Mycolor) !important;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.89) 0 0);
+}
+body h2 {
+  filter: invert(0%);
 }
 
 #portfolio {
-  background-color: #5cff72;
-  color: #a3008d;
+  background-color: var(--Mycolor);
+  color: var(--Mycolor);
 }
 #portfolio h1 {
   font-size: 6em;
@@ -103,63 +206,6 @@ body {
   }
 }
 
-:export {
-  colorStart: rgb(0, 245, 33);
-}
-
-:export {
-  colorStart: rgb(0, 245, 33);
-}
-
-.color-0 {
-  background-color: #00e61f;
-  color: #ff19e0;
-}
-
-.color-1 {
-  background-color: #00d61d;
-  color: #ff29e2;
-}
-
-.color-2 {
-  background-color: #00c71b;
-  color: #ff38e4;
-}
-
-.color-3 {
-  background-color: #00b819;
-  color: #ff47e6;
-}
-
-.color-4 {
-  background-color: #00a917;
-  color: #ff56e8;
-}
-
-.color-5 {
-  background-color: #009915;
-  color: #ff66ea;
-}
-
-.color-6 {
-  background-color: #008a13;
-  color: #ff75ec;
-}
-
-.color-7 {
-  background-color: #007b11;
-  color: #ff84ee;
-}
-
-.color-8 {
-  background-color: #006b0e;
-  color: #ff94f1;
-}
-
-body {
-  background-color: #29ff46;
-}
-
 #submitButton {
   font-weight: 700;
 }
@@ -173,4 +219,164 @@ footer {
 }
 footer h4 {
   font-weight: 700;
+}
+
+:root {
+  --Mycolor: rgb(0, 8, 255);
+}
+
+:root {
+  --Mycolor: rgb(0, 8, 255);
+}
+
+.color-0 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 0 0);
+}
+.color-0 h1,
+.color-0 h2,
+.color-0 h3,
+.color-0 h4,
+.color-0 h5,
+.color-0 h6,
+.color-0 small,
+.color-0 button {
+  color: invert(100%);
+  filter: invert(100%);
+}
+
+.color-1 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0666666667) 0 0);
+}
+.color-1 h1,
+.color-1 h2,
+.color-1 h3,
+.color-1 h4,
+.color-1 h5,
+.color-1 h6,
+.color-1 small,
+.color-1 button {
+  color: invert(100%);
+  filter: invert(100%);
+}
+
+.color-2 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1333333333) 0 0);
+}
+.color-2 h1,
+.color-2 h2,
+.color-2 h3,
+.color-2 h4,
+.color-2 h5,
+.color-2 h6,
+.color-2 small,
+.color-2 button {
+  color: invert(100%);
+  filter: invert(100%);
+}
+
+.color-3 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+}
+.color-3 h1,
+.color-3 h2,
+.color-3 h3,
+.color-3 h4,
+.color-3 h5,
+.color-3 h6,
+.color-3 small,
+.color-3 button {
+  color: invert(100%);
+  filter: invert(100%);
+}
+
+.color-4 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2666666667) 0 0);
+}
+.color-4 h1,
+.color-4 h2,
+.color-4 h3,
+.color-4 h4,
+.color-4 h5,
+.color-4 h6,
+.color-4 small,
+.color-4 button {
+  color: invert(100%);
+  filter: invert(100%);
+}
+
+.color-5 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3333333333) 0 0);
+}
+.color-5 h1,
+.color-5 h2,
+.color-5 h3,
+.color-5 h4,
+.color-5 h5,
+.color-5 h6,
+.color-5 small,
+.color-5 button {
+  color: invert(100%);
+  filter: invert(100%);
+}
+
+.color-6 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
+}
+.color-6 h1,
+.color-6 h2,
+.color-6 h3,
+.color-6 h4,
+.color-6 h5,
+.color-6 h6,
+.color-6 small,
+.color-6 button {
+  color: invert(100%);
+  filter: invert(100%);
+}
+
+.color-7 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4666666667) 0 0);
+}
+.color-7 h1,
+.color-7 h2,
+.color-7 h3,
+.color-7 h4,
+.color-7 h5,
+.color-7 h6,
+.color-7 small,
+.color-7 button {
+  color: invert(100%);
+  filter: invert(100%);
+}
+
+.color-8 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5333333333) 0 0);
+}
+.color-8 h1,
+.color-8 h2,
+.color-8 h3,
+.color-8 h4,
+.color-8 h5,
+.color-8 h6,
+.color-8 small,
+.color-8 button {
+  color: invert(100%);
+  filter: invert(100%);
+}
+
+body {
+  background-color: var(--Mycolor) !important;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.89) 0 0);
+}
+body h2 {
+  filter: invert(0%);
 }/*# sourceMappingURL=app.css.map */

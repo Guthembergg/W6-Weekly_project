@@ -1,18 +1,47 @@
 @import "variables";
 
+@function set-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
 @mixin color-divs($count, $baseName, $startcolor) {
   $loop_color: $startcolor;
+
   @for $i from 0 through $count {
-    $loop_color: darken($loop_color, 3%);
     .#{$baseName}-#{$i} {
       background-color: $loop_color;
-      color: invert($loop_color);
+      background-image: linear-gradient(rgba(0, 0, 0, $i/15) 0 0);
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      small,
+      button {
+        color: invert(100%);
+
+        filter: invert(100%);
+      }
     }
   }
 } //crea classi con il nome che vuoi con sfumature del colore iniziale e colore del testo invertito per risultare leggibile
 
 @include color-divs(8, "color", $colorStart);
 
+$bodyColor: var(--Mycolor);
+
 body {
-  background-color: $bodyColor;
+  background-color: $bodyColor !important;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.89) 0 0);
+  h2 {
+    filter: invert(0%);
+  }
 }
+
+$carouselColor: $bodyColor;
+$carouselText: $carouselColor;

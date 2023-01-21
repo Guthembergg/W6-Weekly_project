@@ -1,12 +1,6 @@
-$colorStart: rgb(
-  0,
-  245,
-  33
+$colorStart: var(
+  --Mycolor
 ); // cambiando questo colore cambiano in automatico tutti i colori del sito e delle scritte, fai delle prove cambiando $colorStart
-$bodyColor: lighten($colorStart, 10%);
-$carouselColor: lighten($bodyColor, 10%);
-$carouselText: invert($carouselColor);
-
-:export {
-  colorStart: $colorStart;
+:root {
+  --Mycolor: rgb(0, 8, 255);
 }
