@@ -1,3 +1,182 @@
+:root {
+  --Mycolor: #464d72;
+}
+
+:root {
+  --Mycolor: #464d72;
+}
+
+.color-0 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 0 0);
+}
+.color-0 h3,
+.color-0 h4,
+.color-0 h5,
+.color-0 h6,
+.color-0 small,
+.color-0 button {
+  filter: invert(100%);
+  mix-blend-mode: difference;
+}
+.color-0 h1,
+.color-0 h2 {
+  filter: invert(100%);
+}
+
+.color-1 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0454545455) 0 0);
+}
+.color-1 h3,
+.color-1 h4,
+.color-1 h5,
+.color-1 h6,
+.color-1 small,
+.color-1 button {
+  filter: invert(100%);
+  mix-blend-mode: difference;
+}
+.color-1 h1,
+.color-1 h2 {
+  filter: invert(100%);
+}
+
+.color-2 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0909090909) 0 0);
+}
+.color-2 h3,
+.color-2 h4,
+.color-2 h5,
+.color-2 h6,
+.color-2 small,
+.color-2 button {
+  filter: invert(100%);
+  mix-blend-mode: difference;
+}
+.color-2 h1,
+.color-2 h2 {
+  filter: invert(100%);
+}
+
+.color-3 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1363636364) 0 0);
+}
+.color-3 h3,
+.color-3 h4,
+.color-3 h5,
+.color-3 h6,
+.color-3 small,
+.color-3 button {
+  filter: invert(100%);
+  mix-blend-mode: difference;
+}
+.color-3 h1,
+.color-3 h2 {
+  filter: invert(100%);
+}
+
+.color-4 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1818181818) 0 0);
+}
+.color-4 h3,
+.color-4 h4,
+.color-4 h5,
+.color-4 h6,
+.color-4 small,
+.color-4 button {
+  filter: invert(100%);
+  mix-blend-mode: difference;
+}
+.color-4 h1,
+.color-4 h2 {
+  filter: invert(100%);
+}
+
+.color-5 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2272727273) 0 0);
+}
+.color-5 h3,
+.color-5 h4,
+.color-5 h5,
+.color-5 h6,
+.color-5 small,
+.color-5 button {
+  filter: invert(100%);
+  mix-blend-mode: difference;
+}
+.color-5 h1,
+.color-5 h2 {
+  filter: invert(100%);
+}
+
+.color-6 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2727272727) 0 0);
+}
+.color-6 h3,
+.color-6 h4,
+.color-6 h5,
+.color-6 h6,
+.color-6 small,
+.color-6 button {
+  filter: invert(100%);
+  mix-blend-mode: difference;
+}
+.color-6 h1,
+.color-6 h2 {
+  filter: invert(100%);
+}
+
+.color-7 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3181818182) 0 0);
+}
+.color-7 h3,
+.color-7 h4,
+.color-7 h5,
+.color-7 h6,
+.color-7 small,
+.color-7 button {
+  filter: invert(100%);
+  mix-blend-mode: difference;
+}
+.color-7 h1,
+.color-7 h2 {
+  filter: invert(100%);
+}
+
+.color-8 {
+  background-color: var(--Mycolor);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3636363636) 0 0);
+}
+.color-8 h3,
+.color-8 h4,
+.color-8 h5,
+.color-8 h6,
+.color-8 small,
+.color-8 button {
+  filter: invert(100%);
+  mix-blend-mode: difference;
+}
+.color-8 h1,
+.color-8 h2 {
+  filter: invert(100%);
+}
+
+body {
+  background-color: var(--Mycolor) !important;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.09) 0 0);
+}
+body h2 {
+  filter: invert(100%);
+  mix-blend-mode: difference;
+}
+
 nav {
   font-weight: 900;
 }
@@ -215,16 +394,6 @@ body h2 {
   }
 }
 
-#portfolio2 h2 {
-  font-size: 3em;
-  font-weight: 800;
-}
-@media screen and (min-width: 768px) {
-  #portfolio2 h2 {
-    font-size: 5em;
-  }
-}
-
 #submitButton {
   font-weight: 700;
 }
@@ -240,186 +409,6 @@ footer h4 {
   font-weight: 700;
 }
 
-:root {
-  --Mycolor: #464d72;
-}
-
-:root {
-  --Mycolor: #464d72;
-}
-
-.color-0 {
-  background-color: var(--Mycolor);
-  background-image: linear-gradient(rgba(0, 0, 0, 0) 0 0);
-}
-.color-0 h3,
-.color-0 h4,
-.color-0 h5,
-.color-0 h6,
-.color-0 small,
-.color-0 button {
-  filter: invert(100%);
-  mix-blend-mode: difference;
-}
-.color-0 h1,
-.color-0 h2 {
-  filter: invert(100%);
-}
-
-.color-1 {
-  background-color: var(--Mycolor);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.0454545455) 0 0);
-}
-.color-1 h3,
-.color-1 h4,
-.color-1 h5,
-.color-1 h6,
-.color-1 small,
-.color-1 button {
-  filter: invert(100%);
-  mix-blend-mode: difference;
-}
-.color-1 h1,
-.color-1 h2 {
-  filter: invert(100%);
-}
-
-.color-2 {
-  background-color: var(--Mycolor);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.0909090909) 0 0);
-}
-.color-2 h3,
-.color-2 h4,
-.color-2 h5,
-.color-2 h6,
-.color-2 small,
-.color-2 button {
-  filter: invert(100%);
-  mix-blend-mode: difference;
-}
-.color-2 h1,
-.color-2 h2 {
-  filter: invert(100%);
-}
-
-.color-3 {
-  background-color: var(--Mycolor);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1363636364) 0 0);
-}
-.color-3 h3,
-.color-3 h4,
-.color-3 h5,
-.color-3 h6,
-.color-3 small,
-.color-3 button {
-  filter: invert(100%);
-  mix-blend-mode: difference;
-}
-.color-3 h1,
-.color-3 h2 {
-  filter: invert(100%);
-}
-
-.color-4 {
-  background-color: var(--Mycolor);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1818181818) 0 0);
-}
-.color-4 h3,
-.color-4 h4,
-.color-4 h5,
-.color-4 h6,
-.color-4 small,
-.color-4 button {
-  filter: invert(100%);
-  mix-blend-mode: difference;
-}
-.color-4 h1,
-.color-4 h2 {
-  filter: invert(100%);
-}
-
-.color-5 {
-  background-color: var(--Mycolor);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2272727273) 0 0);
-}
-.color-5 h3,
-.color-5 h4,
-.color-5 h5,
-.color-5 h6,
-.color-5 small,
-.color-5 button {
-  filter: invert(100%);
-  mix-blend-mode: difference;
-}
-.color-5 h1,
-.color-5 h2 {
-  filter: invert(100%);
-}
-
-.color-6 {
-  background-color: var(--Mycolor);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2727272727) 0 0);
-}
-.color-6 h3,
-.color-6 h4,
-.color-6 h5,
-.color-6 h6,
-.color-6 small,
-.color-6 button {
-  filter: invert(100%);
-  mix-blend-mode: difference;
-}
-.color-6 h1,
-.color-6 h2 {
-  filter: invert(100%);
-}
-
-.color-7 {
-  background-color: var(--Mycolor);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3181818182) 0 0);
-}
-.color-7 h3,
-.color-7 h4,
-.color-7 h5,
-.color-7 h6,
-.color-7 small,
-.color-7 button {
-  filter: invert(100%);
-  mix-blend-mode: difference;
-}
-.color-7 h1,
-.color-7 h2 {
-  filter: invert(100%);
-}
-
-.color-8 {
-  background-color: var(--Mycolor);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3636363636) 0 0);
-}
-.color-8 h3,
-.color-8 h4,
-.color-8 h5,
-.color-8 h6,
-.color-8 small,
-.color-8 button {
-  filter: invert(100%);
-  mix-blend-mode: difference;
-}
-.color-8 h1,
-.color-8 h2 {
-  filter: invert(100%);
-}
-
-body {
-  background-color: var(--Mycolor) !important;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.09) 0 0);
-}
-body h2 {
-  filter: invert(100%);
-  mix-blend-mode: difference;
-}
-
-#portfolio h2,
 h1 {
   -webkit-animation: myAnimation 2s ease-out;
           animation: myAnimation 2s ease-out;
@@ -439,4 +428,72 @@ h1 {
   100% {
     transform: translatey(0) scale(1);
   }
+}
+
+#partners h2 {
+  font-size: 3em;
+  font-weight: 800;
+}
+@media screen and (min-width: 768px) {
+  #partners h2 {
+    font-size: 5em;
+  }
+}
+
+:root {
+  --Mycolor: #464d72;
+}
+
+.card {
+  background-color: #fff;
+  border: none;
+}
+
+.form-color {
+  background-color: #fafafa;
+}
+
+.form-control {
+  height: 48px;
+  border-radius: 25px;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: var(--Mycolor);
+  border-color: var(--Mycolor);
+  outline: 0;
+  box-shadow: none;
+  text-indent: 10px;
+}
+
+.c-badge {
+  background-color: var(--Mycolor);
+  color: white;
+  height: 20px;
+  font-size: 11px;
+  width: 92px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.comment-text {
+  font-size: 13px;
+}
+
+.wish {
+  color: var(--Mycolor);
+}
+
+.user-feed {
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: 900;
 }/*# sourceMappingURL=app.css.map */

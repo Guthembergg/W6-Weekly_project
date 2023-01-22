@@ -1,4 +1,3 @@
-#portfolio h2,
 h1 {
   animation: myAnimation 2s ease-out;
   @keyframes myAnimation {
@@ -8,5 +7,14 @@ h1 {
     100% {
       transform: translatey(0) scale(1);
     }
+  }
+}
+#partners {
+  h2 {
+    font-size: 3em;
+    @media screen and (min-width: 768px) {
+      font-size: 5em;
+    }
+    font-weight: 800;
   }
 }
