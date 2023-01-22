@@ -31,7 +31,7 @@
       }
     }
   }
-} //crea classi con il nome che vuoi con sfumature del colore iniziale e colore del testo invertito per risultare leggibile
+} //funzione mixin che crea classi con il nome che vuoi con sfumature del colore iniziale e colore del testo invertito per risultare leggibile
 
 @include color-divs(
   8,
