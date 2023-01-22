@@ -8,7 +8,7 @@
   }
 } //non posso usare questa funzione perchè lightness(), darken e lighten() non funzionano su variabili css e per comunicare con js sto usando quelle variabili. è possibile comunicare variabili scss a js ma serve un web pack.
 
-// un altra cosa utile per cambiare il tema in dark o light mode è la media query @media (prefers-color-scheme: dark) ma dato che ho dato la possibilità di cambiare il colore a piacimento non o usato questa query
+// un altra cosa utile per cambiare il tema in dark o light mode è la media query @media (prefers-color-scheme: dark/light) ma dato che ho dato la possibilità di cambiare il colore a piacimento non o usato questa query
 
 @mixin color-divs($count, $baseName, $startcolor) {
   $loop_color: $startcolor;
