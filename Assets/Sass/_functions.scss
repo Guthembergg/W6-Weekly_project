@@ -54,3 +54,11 @@ body {
 * {
   transition: background-color 2s ease-in-out; //in questo modo c'è un cambioo graduale dei colori del sito quando l utente deciderà di cambiarli
 }
+
+.mr-2 {
+  color: $colorStart;
+  font-weight: 700;
+}
+h6 {
+  color: $colorStart;
+}
