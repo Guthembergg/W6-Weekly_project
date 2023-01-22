@@ -45,3 +45,6 @@ body {
     mix-blend-mode: difference;
   }
 }
+* {
+  transition: background-color 2s ease-in-out; //in questo modo c'è un cambioo graduale dei colori del sito quando l utente deciderà di cambiarli
+}

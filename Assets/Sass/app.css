@@ -177,6 +177,10 @@ body h2 {
   mix-blend-mode: difference;
 }
 
+* {
+  transition: background-color 2s ease-in-out;
+}
+
 nav {
   font-weight: 900;
 }
@@ -373,6 +377,10 @@ body h2 {
   mix-blend-mode: difference;
 }
 
+* {
+  transition: background-color 2s ease-in-out;
+}
+
 #portfolio {
   background-color: var(--Mycolor);
   color: var(--Mycolor);
@@ -409,7 +417,8 @@ footer h4 {
   font-weight: 700;
 }
 
-h1 {
+#portfolio h1,
+#portfolio h2 {
   -webkit-animation: myAnimation 2s ease-out;
           animation: myAnimation 2s ease-out;
 }
