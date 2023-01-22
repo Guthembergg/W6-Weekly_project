@@ -33,7 +33,11 @@
   }
 } //crea classi con il nome che vuoi con sfumature del colore iniziale e colore del testo invertito per risultare leggibile
 
-@include color-divs(8, "color", $colorStart);
+@include color-divs(
+  8,
+  "color",
+  $colorStart
+); //creo 9 classi color-# per avere 8 sfumature da cui scegliere
 
 $bodyColor: var(--Mycolor);
 
